@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="NothingFoundCell" id="QuR-NK-DUp">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QuR-NK-DUp" id="T8p-YY-5Ho">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing Found" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTb-3g-PGc">
+                        <rect key="frame" x="20" y="14" width="335" height="55"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bTb-3g-PGc" firstAttribute="bottom" secondItem="T8p-YY-5Ho" secondAttribute="bottomMargin" id="SOh-hX-gN7"/>
+                    <constraint firstItem="bTb-3g-PGc" firstAttribute="width" secondItem="T8p-YY-5Ho" secondAttribute="width" multiplier="0.893333" id="r1H-e4-7Pe"/>
+                    <constraint firstItem="bTb-3g-PGc" firstAttribute="leading" secondItem="T8p-YY-5Ho" secondAttribute="leading" constant="20" symbolic="YES" id="viy-Ae-3UR"/>
+                    <constraint firstItem="bTb-3g-PGc" firstAttribute="height" secondItem="T8p-YY-5Ho" secondAttribute="height" multiplier="0.6875" id="xmm-it-Sz8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-57.24637681159421" y="53.571428571428569"/>
+        </tableViewCell>
+    </objects>
+</document>
