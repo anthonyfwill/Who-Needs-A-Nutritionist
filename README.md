@@ -1,7 +1,5 @@
 # Who Needs a Nutritionist?
 
-![App Logo](images/app-logo.png)
-
 ## Overview
 
 "Who Needs a Nutritionist?" is a Swift-based app that helps users determine the nutritional value of various recipes or meals. Users can enter the name of a meal or recipe, and the app will provide them with a comprehensive nutritional analysis. This information can be saved to avoid repetition, and users can also log their meals for the day and track their consumed food items.
@@ -23,7 +21,7 @@
 
 ## Dependencies
 
-- **FoodData Central API:** [API Documentation](https://developer.nal.usda.gov/food-data-central)
+- **FoodData Central API:** [API Documentation](https://fdc.nal.usda.gov/api-guide.html)
   
 ## Screenshots
 
@@ -35,5 +33,5 @@
    
 ## Future Enhancements
 
-- Integration with wearable devices for real-time tracking.
-- Enhanced meal planning and nutritional goal setting.
+- [ ] Integration with wearable devices for real-time tracking.
+- [ ] Enhanced meal planning and nutritional goal setting.
