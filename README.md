@@ -8,10 +8,10 @@
 
 ## Features
 
-- Nutritional Analysis: Enter the name of a meal or recipe to get detailed nutritional information.
-- Save Nutritional Data: Save nutritional analysis results for future reference.
-- Meal Logging: Log meals for the day and track consumed food items.
-- FoodData Central API: The app utilizes the FoodData Central API to gather nutritional information.
+- [x] Nutritional Analysis: Enter the name of a meal or recipe to get detailed nutritional information.
+- [x] Save Nutritional Data: Save nutritional analysis results for future reference.
+- [x] Meal Logging: Log meals for the day and track consumed food items.
+- [x] FoodData Central API: The app utilizes the FoodData Central API to gather nutritional information.
 
 ## Usage
 
